@@ -1,0 +1,38 @@
+/* Color */
+.team h3:hover,ol.breadcrumb li a:hover,
+.mobile-nav > ul > li > a:hover,.mobile-nav > ul li > a:hover,.ordering a:hover,
+.search-popup .form-group input[type="submit"],.search-popup .form-group button,
+.navbar-links li.navbar-dropdown .dropdown a:hover,.social-media-text a:hover,.footer-bottom-text a:hover,
+.error h2 span,.recent-causes-data a:hover h3,ul.categories li a:hover,.recent-comments a:hover,
+.pricing .button,ul.recent-post span,.tick a:hover,.team-details span,ul.Meta li a:hover,
+.team span,.projects:hover .projects-text a:hover,.our-services-text-two a:hover,
+.blog a:hover,.get-in-touch h6 a:hover,.get-in-touch a:hover,
+.what-we-do a:hover,.accordion-item.active .title,.hero-section-two h1 span,
+.heading p,.machine-learning sup,.machine-learning h2,.our-services-text a h4:hover {
+   
+    color: #f4473d;
+
+}
+/* Background Color */
+.preloader,
+.recent-causes-data a:hover i,.clientstwo-slider .owl-nav button i:hover,
+.pagenashio a:hover i,.content-text i,.hero-one-slider i:hover,.white_content,
+.pagenashion-number a:hover,.service-details i,.service-details i:before,.service-details i:after,
+.partner-img .partner.arrow i:hover,.videotwo i,.boder-bar:before,
+.what-we-do.style2 i:before,.what-we-do.style2 i:after,.what-we-do.style2 i,
+.imgblog .data,.blog a:hover i,.nav-pills .nav-link.active,.meter > span,
+.what-we-do:hover i,.accordion-item.active .icon,.pricing .button:hover:before,
+.what-we-do:hover i:after,.what-we-do:hover i:before,ul.image-gallery li figure:before,
+.button,.heading-shap,ul.features li:before {
+
+    background-color:#f4473d;
+
+}
+.item.partner:hover,
+.recent-causes-data a i,.clientstwo-slider .owl-nav button i,.ordering a:hover,
+.blog.our-blog > a i,.pagenashio a i,button.error-button,.hero-one-slider .owl-nav i,
+.partner-img .partner.arrow i,.pagenashion-number a.pagenashion,.pagenashion-number a:hover,
+.blog a:hover i,.nav-pills .nav-link.active,.pricing .button { 
+    border-color:#f4473d;
+
+}

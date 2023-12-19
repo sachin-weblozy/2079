@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>United Tech Help - Our Blog</title>
+  <link rel="icon" href="assets/img/heading-img.png">
+  <!-- CSS only -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <!-- fancybox -->
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+  <!-- style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <!-- color -->
+  <link rel="stylesheet" href="assets/css/color.css">
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/preloader.js"></script>
+ </head>
+<body>
+ <!-- preloader -->
+ <div class="preloader">
+  <div class="pl">
+    <svg class="pl__rings" viewBox="0 0 128 128" width="128px" height="128px">
+      <g fill="none" stroke-linecap="round" stroke-width="4">
+        <g class="pl__ring" transform="rotate(0)">
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+        </g>
+        <g class="pl__ring" transform="rotate(0)">
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+        </g>
+        <g class="pl__ring" transform="rotate(0)">
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+        </g>
+        <g class="pl__ring" transform="rotate(0)">
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+        </g>
+        <g class="pl__ring" transform="rotate(180)">
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.3)" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+        </g>
+        <g class="pl__ring" transform="rotate(180)">
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0)" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsla(223,90%,50%,0.5)" stroke-dasharray="50 240" />
+          <ellipse class="pl__orbit" cx="64" cy="64" rx="60" ry="30" stroke="hsl(223,90%,50%)" stroke-dasharray="25 265" />
+        </g>
+        <g class="pl__ring" transform="rotate(0)">
+          <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+          <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+        </g>
+        <g class="pl__ring" transform="rotate(180)">
+          <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+          <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+          <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />
+          <ellipse class="pl__electron" cx="64" cy="64" rx="60" ry="30" stroke="hsl(0,0%,100%)" stroke-dasharray="1 289" stroke-width="8" />	
+        </g>
+      </g>
+    </svg>
+    <div class="pl__nucleus">
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+      <div class="pl__nucleus-particle"></div>
+    </div>
+  </div>
+</div>
+<!-- preloader end -->
+<header class="three">
+  <div class="bottom-bar">
+    <div class="container">
+        <div class="bottom-bar-text">
+          <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+          <nav class="navbar">
+            <ul class="navbar-links">
+              <li class="navbar-dropdown">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="navbar-dropdown">
+                <a href="./about.html">About</a>
+              </li>
+              <li class="navbar-dropdown menu-item-children">
+                <a href="./our-services.html">services</a>
+                <div class="dropdown">
+                  <a href="./services-ai.html">Artificial Intelligence</a>
+                  <a href="./services-ml.html">Machine Learning</a>
+                  <a href="./services-gd.html">Game Development</a>
+                </div>
+              </li>
+              <li class="navbar-dropdown">
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu-end">
+                <div class="bar-menu">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="header-search-button search-box-outer">
+                <a href="javascript:void(0)" class="search-btn">
+                  <svg height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g id="_12" data-name="12"><path d="m21.71 20.29-2.83-2.82a9.52 9.52 0 1 0 -1.41 1.41l2.82 2.83a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zm-17.71-8.79a7.5 7.5 0 1 1 7.5 7.5 7.5 7.5 0 0 1 -7.5-7.5z"></path></g></svg>
+                </a>
+                </div>
+                
+                <a href="./contact.html" class="button">Schedule a Demo</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
+      <div class="res-log">
+        <a href="index.html">
+          <img src="assets/img/logo-b.png" alt="Responsive Logo">
+        </a>
+      </div>
+        <ul>
+
+          <!-- <li class="menu-item-has-children"><a href="JavaScript:void(0)">Home</a>
+            <ul class="sub-menu">
+
+              <li><a href="index.html">home 1</a></li>
+              <li><a href="index-3.html">home 2</a></li>
+              <li><a href="index-4.html">home 3</a></li>
+            </ul>
+          </li> -->
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+
+          
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">Services</a>
+
+          <ul class="sub-menu">
+
+            <li><a href="our-services.html">our services</a></li>
+            <li><a href="services-details.html">services details</a></li>
+
+          </ul>
+
+          </li>
+          <!-- <li class="menu-item-has-children"><a href="JavaScript:void(0)">pages</a>
+              <ul class="sub-menu">
+                <li><a href="team-details.html">team details</a></li>
+                <li><a href="our-projects.html">our projects</a></li>
+                <li><a href="project-details.html">project details</a></li>
+                <li><a href="pricing-plans.html">pricing plans</a></li>
+                <li><a href="faq.html">faq</a></li>
+                <li><a href="404.html">404</a></li>
+              </ul>
+
+          </li>
+          <li class="menu-item-has-children"><a href="JavaScript:void(0)">News</a>
+
+              <ul class="sub-menu">
+                <li><a href="our-blog.html">our blog</a></li>
+               <li><a href="blog-details.html">blog details</a></li>
+              
+              </ul>
+
+          </li> -->
+
+          <li><a href="contact.html">contacts</a></li>
+
+          </ul>
+
+            <ul class="social-icon">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+
+          <a href="JavaScript:void(0)" id="res-cross"></a>
+  </div>
+</header>
+<section class="bannr" style="background-image:url(assets/img/Slider-background.webp)">
+    <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-6">
+            <div class="bannr-text">
+              <h4>Our Blog</h4>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                   <a href="index.html">Home</a>
+                </li>
+                  <li class="breadcrumb-item active" aria-current="page">Our blog</li>
+              </ol>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="bannr-img">
+              <img src="assets/img/robotic-proces.png" alt="robotic-proces">
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+<section class="gap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="blog our-blog hover-img">
+          <div class="imgblog">
+            <figure>
+            <img src="assets/img/our-blog-img-1.jpg" alt="img">
+            </figure>
+            <div class="data"><h6><i class="fa-regular fa-clock"></i>December 21, 2023</h6><span><i class="fa-regular fa-message"></i>120</span></div>
+          </div>
+          <h6>Digital Marketing</h6>
+          <h3><a href="blog-details.html">Audiences Through Smart Approach</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Risus sed vulputate odio ut enim. it ut aliquam purus sit. Penatibus et magnis dis parturient montes nascetur retra pharetra mass ridiculus.</p>
+          <a href="#"><i><svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 0.999998C21 0.447714 20.5523 -1.54921e-06 20 -1.80209e-06L11 -1.0013e-06C10.4477 -1.33848e-06 10 0.447714 10 0.999999C10 1.55228 10.4477 2 11 2L19 2L19 10C19 10.5523 19.4477 11 20 11C20.5523 11 21 10.5523 21 10L21 0.999998ZM1.70711 20.7071L20.7071 1.70711L19.2929 0.292892L0.292893 19.2929L1.70711 20.7071Z"></path></svg>
+          </i>read more</a>
+        </div>
+        <div class="blog our-blog hover-img">
+          <div class="imgblog">
+            <figure>
+            <img src="assets/img/our-blog-img-2.jpg" alt="img">
+            </figure>
+            <div class="data"><h6><i class="fa-regular fa-clock"></i>December 21, 2023</h6><span><i class="fa-regular fa-message"></i>120</span></div>
+          </div>
+          <h6>Digital Marketing</h6>
+          <h3><a href="blog-details.html">Making Peace With The Feast Or Famine</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Risus sed vulputate odio ut enim. it ut aliquam purus sit. Penatibus et magnis dis parturient montes nascetur retra pharetra mass ridiculus.</p>
+          <a href="#"><i><svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 0.999998C21 0.447714 20.5523 -1.54921e-06 20 -1.80209e-06L11 -1.0013e-06C10.4477 -1.33848e-06 10 0.447714 10 0.999999C10 1.55228 10.4477 2 11 2L19 2L19 10C19 10.5523 19.4477 11 20 11C20.5523 11 21 10.5523 21 10L21 0.999998ZM1.70711 20.7071L20.7071 1.70711L19.2929 0.292892L0.292893 19.2929L1.70711 20.7071Z"></path></svg>
+          </i>read more</a>
+        </div>
+        <div class="blog our-blog hover-img">
+          <div class="imgblog">
+            <figure>
+            <img src="assets/img/our-blog-img-3.jpg" alt="img">
+            </figure>
+            <div class="data"><h6><i class="fa-regular fa-clock"></i>December 21, 2023</h6><span><i class="fa-regular fa-message"></i>120</span></div>
+          </div>
+          <h6>Digital Marketing</h6>
+          <h3><a href="blog-details.html">Audiences Through Smart Approach</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Risus sed vulputate odio ut enim. it ut aliquam purus sit. Penatibus et magnis dis parturient montes nascetur retra pharetra mass ridiculus.</p>
+          <a href="#"><i><svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 0.999998C21 0.447714 20.5523 -1.54921e-06 20 -1.80209e-06L11 -1.0013e-06C10.4477 -1.33848e-06 10 0.447714 10 0.999999C10 1.55228 10.4477 2 11 2L19 2L19 10C19 10.5523 19.4477 11 20 11C20.5523 11 21 10.5523 21 10L21 0.999998ZM1.70711 20.7071L20.7071 1.70711L19.2929 0.292892L0.292893 19.2929L1.70711 20.7071Z"></path></svg>
+          </i>read more</a>
+        </div>
+        <div class="blog our-blog hover-img">
+          <div class="imgblog">
+            <figure>
+            <img src="assets/img/our-blog-img-4.jpg" alt="img">
+            </figure>
+            <div class="data"><h6><i class="fa-regular fa-clock"></i>December 21, 2023</h6><span><i class="fa-regular fa-message"></i>120</span></div>
+          </div>
+          <h6>Digital Marketing</h6>
+          <h3><a href="blog-details.html">Challenges of Implementing</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Risus sed vulputate odio ut enim. it ut aliquam purus sit. Penatibus et magnis dis parturient montes nascetur retra pharetra mass ridiculus.</p>
+          <a href="#"><i><svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 0.999998C21 0.447714 20.5523 -1.54921e-06 20 -1.80209e-06L11 -1.0013e-06C10.4477 -1.33848e-06 10 0.447714 10 0.999999C10 1.55228 10.4477 2 11 2L19 2L19 10C19 10.5523 19.4477 11 20 11C20.5523 11 21 10.5523 21 10L21 0.999998ZM1.70711 20.7071L20.7071 1.70711L19.2929 0.292892L0.292893 19.2929L1.70711 20.7071Z"></path></svg>
+          </i>read more</a>
+        </div>
+        <div class="blog our-blog hover-img">
+          <div class="imgblog">
+            <figure>
+            <img src="assets/img/our-blog-img-5.jpg" alt="img">
+            </figure>
+            <div class="data"><h6><i class="fa-regular fa-clock"></i>December 21, 2023</h6><span><i class="fa-regular fa-message"></i>120</span></div>
+          </div>
+          <h6>Digital Marketing</h6>
+          <h3><a href="blog-details.html">Audiences Through Smart Approach</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Risus sed vulputate odio ut enim. it ut aliquam purus sit. Penatibus et magnis dis parturient montes nascetur retra pharetra mass ridiculus.</p>
+          <a href="#"><i><svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 0.999998C21 0.447714 20.5523 -1.54921e-06 20 -1.80209e-06L11 -1.0013e-06C10.4477 -1.33848e-06 10 0.447714 10 0.999999C10 1.55228 10.4477 2 11 2L19 2L19 10C19 10.5523 19.4477 11 20 11C20.5523 11 21 10.5523 21 10L21 0.999998ZM1.70711 20.7071L20.7071 1.70711L19.2929 0.292892L0.292893 19.2929L1.70711 20.7071Z"></path></svg>
+          </i>read more</a>
+        </div>
+        <ul class="pagenashion-number">
+          <li><a class="pagenashion" href="JavaScript:void(0)">Prev</a></li> 
+          <li><a href="JavaScript:void(0)">01</a></li>
+          <li><a href="JavaScript:void(0)">02</a></li>
+          <li><a href="JavaScript:void(0)">03</a></li>
+          <li class="no-data">...</li>
+          <li><a href="JavaScript:void(0)">16</a></li>
+          <li><a href="JavaScript:void(0)" class="pagenashion">next</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <div class="sidebar">
+                        <h3>Recent Posts</h3>
+                        <div class="boder-bar"></div>
+                        <ul class="recent-post">
+                            <li>
+                                <img alt="recent-posts-img" src="assets/img/recent-posts-img-1.jpg">
+                                <div>
+                                    <a href="#">The Intersection of Robotics and AI</a>
+                                    <span>December 12, 2023</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img alt="recent-posts-img" src="assets/img/recent-posts-img-2.jpg">
+                                <div>
+                                  <a href="#">Balancing Innovation and Responsibility</a>
+                                    <span>December 12, 2023</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img alt="recent-posts-img" src="assets/img/recent-posts-img-3.jpg">
+                                <div>
+                                    <a href="#">Applications and Advancements</a>
+                                    <span>December 12, 2023</span>
+                                </div>
+                            </li>
+                        </ul>
+        </div>
+        <div class="sidebar">
+          <h3>Categories</h3>
+          <div class="boder-bar"></div>
+          <ul class="categories">
+              <li>
+                  <a href="#">Artificial intelligence<span>23</span></a>
+              </li>
+              <li>
+                  <a href="#">Digital Marketing<span>10</span></a>
+              </li>
+              <li>
+                  <a href="#">Projects<span>09</span></a>
+              </li>
+              <li>
+                  <a href="#">Unique Ideas<span>14</span></a>
+              </li>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <h3>Recent Comments</h3>
+          <div class="boder-bar"></div>
+          <ul class="recent-comments">
+              <li>
+                <span>Thomas Walkar</span>
+                <a href="#">on Unsatiable entreaties may collecting Power.</a>
+              </li>
+              <li>
+                <span>Marlee Markon</span>
+                <a href="#">on Unsatiable entreaties may collecting Power.</a>
+              </li>
+              <li>
+                <span>Jakki Jamson</span>
+                <a href="#">on Unsatiable entreaties may collecting Power.</a>
+              </li>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <h3>Archives</h3>
+          <div class="boder-bar"></div>
+          <ul class="Meta">
+              <li><a href="#">July 2021</a></li>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <h3>Meta</h3>
+          <div class="boder-bar"></div>
+          <ul class="Meta">
+              <li><a href="#">Log in</a></li>
+              <li><a href="#">Entries feed</a></li>
+              <li><a href="#">Comments feed</a></li>
+              <li><a href="#">WordPress.org</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- footer -->
+ <footer class="gap no-bottom" style="background-image:url(assets/img/footer.jpg);">
+  <div class="container">
+    <div class="start-your-business">
+      <div>
+        <h4>Start Your Business with AI?</h4>
+        <p>It’s like having access to a team of experienced writers producing powerful content for you in one click.
+        </p>
+      </div>
+      <a href="./contact.html" class="button">Get Started Free</a>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="logo">
+          <a href="#">
+            <img alt="img" src="assets/img/logo.svg">
+          </a>
+          <p>Discover success through innovation with United Tech Help. We bring expertise in AI, machine learning, game development and personalized solutions, empowering businesses for over six years.</p>
+          <!-- <div class="d-flex align-items-center">
+            <i class="fa-regular fa-clock"></i>
+            <span>Mon - Sat: 09:00 - 19:00 <br>Sunday: Closed</span>
+          </div> -->
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6">
+        <div class="widget-title">
+          <h3>Company</h3>
+          <div class="boder"></div>
+          
+          
+          <div class="get-in-touch">
+            <i>
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.69031 18.9805C7.41563 18.9805 7.14328 18.86 6.95766 18.6289C4.44282 15.4878 3.98766 11.1364 5.79797 7.54343C6.03047 7.08171 6.59344 6.89421 7.0575 7.12812C7.51969 7.36109 7.70578 7.92499 7.47282 8.38718C5.99156 11.3267 6.36422 14.8873 8.42156 17.457C8.745 17.8611 8.67985 18.4512 8.27531 18.7747C8.10281 18.913 7.8961 18.9805 7.69031 18.9805Z"
+                  fill="white" />
+                <path
+                  d="M8.25654 6.61746C8.01467 6.61746 7.77326 6.52464 7.58951 6.33902C7.22576 5.97058 7.22904 5.37714 7.59748 5.01339L7.93076 4.68386C8.2992 4.32011 8.89264 4.32293 9.25685 4.69183C9.6206 5.06027 9.61732 5.65371 9.24889 6.01746L8.9156 6.34699C8.73326 6.52746 8.49467 6.61746 8.25654 6.61746Z"
+                  fill="white" />
+                <path
+                  d="M22.3261 18.9807C22.1208 18.9807 21.9136 18.9132 21.7406 18.7749C21.3365 18.4515 21.2709 17.8614 21.5943 17.4573C23.8673 14.619 24.0464 10.5259 22.0317 7.50385C19.7367 4.06135 15.0267 2.78635 11.3072 4.60135C10.8412 4.82823 10.2811 4.63464 10.0537 4.1701C9.82638 3.70464 10.0195 3.14354 10.485 2.9162C15.1054 0.660573 20.7398 2.18635 23.5917 6.46323C26.055 10.1574 25.8356 15.1599 23.0583 18.6287C22.8731 18.8603 22.6008 18.9807 22.3261 18.9807Z"
+                  fill="white" />
+                <path
+                  d="M15.0164 17.7975C15.0159 17.7975 15.0159 17.7975 15.0164 17.7975C13.6359 17.7975 12.315 17.3053 11.2973 16.4114C9.36327 14.7126 8.83124 11.8307 10.0317 9.55871C10.9941 7.73809 12.9576 6.56152 15.0347 6.56152C15.4894 6.56152 15.9426 6.6173 16.3809 6.72746C18.8451 7.34574 20.633 9.64027 20.633 12.1837C20.633 14.0039 19.7451 15.72 18.2592 16.7742C17.3151 17.4436 16.1944 17.7975 15.0164 17.7975ZM15.0347 8.43652C13.6444 8.43652 12.3309 9.22074 11.6897 10.4348C10.8895 11.9484 11.2453 13.8698 12.5348 15.0028C13.2098 15.5957 14.0911 15.9225 15.0159 15.9225C15.803 15.9225 16.5497 15.6881 17.1745 15.2451C18.1664 14.542 18.7584 13.3978 18.7584 12.1837C18.7584 10.4882 17.5669 8.95824 15.9248 8.54621C15.6351 8.47355 15.3356 8.43652 15.0347 8.43652Z"
+                  fill="white" />
+                <path
+                  d="M15.008 28.1211C14.8027 28.1211 14.5955 28.0536 14.4225 27.9153C14.0184 27.5919 13.9528 27.0017 14.2763 26.5977L21.5944 17.457C21.9183 17.0525 22.5075 16.9878 22.9125 17.3113C23.3166 17.6347 23.3822 18.2248 23.0588 18.6289L15.7406 27.7695C15.555 28.0006 15.2827 28.1211 15.008 28.1211Z"
+                  fill="white" />
+                <path
+                  d="M15.0089 28.1211C14.7342 28.1211 14.4619 28.0006 14.2762 27.7695L6.9581 18.6289C6.63467 18.2248 6.69982 17.6347 7.10435 17.3113C7.50795 16.9878 8.0981 17.0525 8.42248 17.457L15.7406 26.5977C16.064 27.0017 15.9989 27.5919 15.5944 27.9153C15.4209 28.0536 15.2142 28.1211 15.0089 28.1211Z"
+                  fill="white" />
+              </svg>
+            </i>
+            <div>
+              <span class="pt-2 pb-0">374 William S Canning Blvd, Fall River MA 2721, USA</span>
+            </div>
+          </div>
+          <div class="get-in-touch">
+            <i>
+              <svg height="112" viewBox="0 0 24 24" width="112" xmlns="http://www.w3.org/2000/svg">
+                <g clip-rule="evenodd" fill="rgb(255255,255)" fill-rule="evenodd">
+                  <path
+                    d="m7 2.75c-.41421 0-.75.33579-.75.75v17c0 .4142.33579.75.75.75h10c.4142 0 .75-.3358.75-.75v-17c0-.41421-.3358-.75-.75-.75zm-2.25.75c0-1.24264 1.00736-2.25 2.25-2.25h10c1.2426 0 2.25 1.00736 2.25 2.25v17c0 1.2426-1.0074 2.25-2.25 2.25h-10c-1.24264 0-2.25-1.0074-2.25-2.25z">
+                  </path>
+                  <path
+                    d="m10.25 5c0-.41421.3358-.75.75-.75h2c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-2c-.4142 0-.75-.33579-.75-.75z">
+                  </path>
+                  <path
+                    d="m9.25 19c0-.4142.33579-.75.75-.75h4c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-4c-.41421 0-.75-.3358-.75-.75z">
+                  </path>
+                </g>
+              </svg>
+            </i>
+            <div>
+              <a href="./contact.html">Contact Us</a>
+              <h6><a href="callto:+1(251)3441354">+92 (8800) 48720</a></h6>
+            </div>
+          </div>
+          <div class="get-in-touch mb-0">
+            <div>
+              <i>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1 15.25C0.585786 15.25 0.25 15.5858 0.25 16C0.25 16.4142 0.585786 16.75 1 16.75H4C4.41421 16.75 4.75 16.4142 4.75 16C4.75 15.5858 4.41421 15.25 4 15.25H1Z"
+                    fill="white" />
+                  <path
+                    d="M1 18.25C0.585786 18.25 0.25 18.5858 0.25 19C0.25 19.4142 0.585786 19.75 1 19.75H7C7.41421 19.75 7.75 19.4142 7.75 19C7.75 18.5858 7.41421 18.25 7 18.25H1Z"
+                    fill="white" />
+                  <path
+                    d="M3.10885 5.09007L3 5C3.3084 4.57553 3.6366 4.26331 4.06107 3.95491C5.3754 3 7.25027 3 11 3H13C16.7497 3 18.6246 3 19.9389 3.95491C20.3634 4.26331 20.6657 4.54132 20.9741 4.96579L20.8485 5.0907L18.5406 7.39861C16.8589 9.08027 15.6499 10.287 14.6071 11.0827C13.5816 11.8651 12.8055 12.1789 11.9999 12.1789C11.1942 12.1789 10.4181 11.8651 9.39261 11.0827C8.3498 10.287 7.14079 9.08027 5.45913 7.39861L3.51587 5.45535L3.10885 5.09007Z"
+                    fill="white" />
+                  <path
+                    d="M2 12.0004C2 9.36045 2 7.64983 2.33322 6.40984L2.48385 6.54503L4.43904 8.50021C6.07131 10.1325 7.35049 11.4117 8.48274 12.2756C9.64167 13.1598 10.7344 13.6793 11.9999 13.6793C13.2653 13.6793 14.3581 13.1598 15.517 12.2756C16.6492 11.4117 17.9284 10.1325 19.5607 8.50023L21.6634 6.39746C22 7.63843 22 9.35166 22 12.0004C22 15.7501 22 17.625 21.0451 18.9393C20.7367 19.3638 20.3634 19.7371 19.9389 20.0455C18.6246 21.0004 16.7497 21.0004 13 21.0004H11C9.57164 21.0004 8.41532 21.0004 7.45841 20.9476C8.34204 20.7404 9 19.9472 9 19.0004C9 17.8958 8.10457 17.0004 7 17.0004H5.73244C5.90261 16.7062 6 16.3647 6 16.0004C6 14.8958 5.10457 14.0004 4 14.0004H2.00721C2 13.3993 2 12.7359 2 12.0004Z"
+                    fill="white" />
+                </svg>
+              </i>
+            </div>
+            <div>
+              <h6><a href="mailto:needhelp@company.com">needhelp@company.com</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="widget-title">
+          <h3>Our Services</h3>
+          <div class="boder"></div>
+          <ul>
+            <li><i class="fa-solid fa-angle-right"></i><a href="./services-ai.html">Artificial Intelligence</a></li>
+            <li><i class="fa-solid fa-angle-right"></i><a href="./services-ml.html">Machine Learning</a></li>
+            <li><i class="fa-solid fa-angle-right"></i><a href="./services-gd.html">Game Development</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom-text">
+        <h6>Ⓒ Copyright <a href="#">United Tech Help</a> 2023. All Right Reserved.</h6>
+        <!-- <div class="ordering">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer end -->
+<!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox clearfix">
+        <div class="white_content">
+            <a href="javascript:;" class="textright" id="close"><i class="fa-regular fa-circle-xmark"></i></a>
+                <h2>AI and Machine Learning Products Creators</h2>
+                <h4 class="des">DAnalysis And Deep Machine Learning Provider With Ai Solution</h4>
+          <figure>
+            <img src="assets/img/sidbar-img.jpg" alt="Desktop Menu Image">
+          </figure>
+          <h3>Get in touch</h3>
+          <p class="num"><i>
+                <svg height="112" viewBox="0 0 24 24" width="112" xmlns="http://www.w3.org/2000/svg"><g clip-rule="evenodd" fill="rgb(255255,255)" fill-rule="evenodd"><path d="m7 2.75c-.41421 0-.75.33579-.75.75v17c0 .4142.33579.75.75.75h10c.4142 0 .75-.3358.75-.75v-17c0-.41421-.3358-.75-.75-.75zm-2.25.75c0-1.24264 1.00736-2.25 2.25-2.25h10c1.2426 0 2.25 1.00736 2.25 2.25v17c0 1.2426-1.0074 2.25-2.25 2.25h-10c-1.24264 0-2.25-1.0074-2.25-2.25z"></path><path d="m10.25 5c0-.41421.3358-.75.75-.75h2c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-2c-.4142 0-.75-.33579-.75-.75z"></path><path d="m9.25 19c0-.4142.33579-.75.75-.75h4c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-4c-.41421 0-.75-.3358-.75-.75z"></path></g></svg>
+              </i><a href="callto:92(8800)48720">92 (8800) 48720</a></p>
+          <p class="num"><i>
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.69031 18.9805C7.41563 18.9805 7.14328 18.86 6.95766 18.6289C4.44282 15.4878 3.98766 11.1364 5.79797 7.54343C6.03047 7.08171 6.59344 6.89421 7.0575 7.12812C7.51969 7.36109 7.70578 7.92499 7.47282 8.38718C5.99156 11.3267 6.36422 14.8873 8.42156 17.457C8.745 17.8611 8.67985 18.4512 8.27531 18.7747C8.10281 18.913 7.8961 18.9805 7.69031 18.9805Z" fill="white"></path>
+                  <path d="M8.25654 6.61746C8.01467 6.61746 7.77326 6.52464 7.58951 6.33902C7.22576 5.97058 7.22904 5.37714 7.59748 5.01339L7.93076 4.68386C8.2992 4.32011 8.89264 4.32293 9.25685 4.69183C9.6206 5.06027 9.61732 5.65371 9.24889 6.01746L8.9156 6.34699C8.73326 6.52746 8.49467 6.61746 8.25654 6.61746Z" fill="white"></path>
+                  <path d="M22.3261 18.9807C22.1208 18.9807 21.9136 18.9132 21.7406 18.7749C21.3365 18.4515 21.2709 17.8614 21.5943 17.4573C23.8673 14.619 24.0464 10.5259 22.0317 7.50385C19.7367 4.06135 15.0267 2.78635 11.3072 4.60135C10.8412 4.82823 10.2811 4.63464 10.0537 4.1701C9.82638 3.70464 10.0195 3.14354 10.485 2.9162C15.1054 0.660573 20.7398 2.18635 23.5917 6.46323C26.055 10.1574 25.8356 15.1599 23.0583 18.6287C22.8731 18.8603 22.6008 18.9807 22.3261 18.9807Z" fill="white"></path>
+                  <path d="M15.0164 17.7975C15.0159 17.7975 15.0159 17.7975 15.0164 17.7975C13.6359 17.7975 12.315 17.3053 11.2973 16.4114C9.36327 14.7126 8.83124 11.8307 10.0317 9.55871C10.9941 7.73809 12.9576 6.56152 15.0347 6.56152C15.4894 6.56152 15.9426 6.6173 16.3809 6.72746C18.8451 7.34574 20.633 9.64027 20.633 12.1837C20.633 14.0039 19.7451 15.72 18.2592 16.7742C17.3151 17.4436 16.1944 17.7975 15.0164 17.7975ZM15.0347 8.43652C13.6444 8.43652 12.3309 9.22074 11.6897 10.4348C10.8895 11.9484 11.2453 13.8698 12.5348 15.0028C13.2098 15.5957 14.0911 15.9225 15.0159 15.9225C15.803 15.9225 16.5497 15.6881 17.1745 15.2451C18.1664 14.542 18.7584 13.3978 18.7584 12.1837C18.7584 10.4882 17.5669 8.95824 15.9248 8.54621C15.6351 8.47355 15.3356 8.43652 15.0347 8.43652Z" fill="white"></path>
+                  <path d="M15.008 28.1211C14.8027 28.1211 14.5955 28.0536 14.4225 27.9153C14.0184 27.5919 13.9528 27.0017 14.2763 26.5977L21.5944 17.457C21.9183 17.0525 22.5075 16.9878 22.9125 17.3113C23.3166 17.6347 23.3822 18.2248 23.0588 18.6289L15.7406 27.7695C15.555 28.0006 15.2827 28.1211 15.008 28.1211Z" fill="white"></path>
+                  <path d="M15.0089 28.1211C14.7342 28.1211 14.4619 28.0006 14.2762 27.7695L6.9581 18.6289C6.63467 18.2248 6.69982 17.6347 7.10435 17.3113C7.50795 16.9878 8.0981 17.0525 8.42248 17.457L15.7406 26.5977C16.064 27.0017 15.9989 27.5919 15.5944 27.9153C15.4209 28.0536 15.2142 28.1211 15.0089 28.1211Z" fill="white"></path>
+                </svg>
+            </i>374 William S Canning Blvd, Fall River MA 2721, USA</p>
+           
+        </div>
+    </div>
+<!-- LIGHTBOX END -->
+<!-- search-popup -->
+<div class="search-popup">
+        <button class="close-search"><i class="fa-solid fa-arrow-right"></i></button>
+        <form method="post" action="#">
+            <div class="form-group">
+                <input type="search" name="search-field" value="" placeholder="Search Here" required="">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
+</div>
+<!-- search-popup end -->
+<!-- progress -->
+<div id="progress">
+      <span id="progress-value"><i class="fa-solid fa-up-long"></i></span>
+</div>
+<!-- search-popup -->
+<!-- Bootstrap Js -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- fancybox -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
